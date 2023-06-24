@@ -68,3 +68,9 @@ hr.light-100 {
 .faviconFooter{  
  width: 3%;
  }
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="faviconFooter"] {
+    width: 10%;
+  }
