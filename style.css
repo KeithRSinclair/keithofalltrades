@@ -1,36 +1,28 @@
 .navbarHeader {
-  background-color: #1a5fa1;
-  padding: 0.5rem;
-  text-shadow: 0 0 3px #000;
-  height: 95px;
+  background-color: #808080;
+  padding: 0.3rem;  
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 0 0 1px 1px;
 }
 
 .myLogo {
-  width: 5rem;
-  padding: 0.3rem;
+  width: 15rem;
+  height: auto;
+  padding: 2rem 1rem 2rem 1rem;  
+  border-left: 0.1rem;
 }
 
 body {
-  background-color: #2f4f4f;
+  background-color: #48494b;
   padding: 0.4rem;
 }
 
 .nav-link {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 0rem 1rem;
+  font-size: 1.1rem;    
 }
 
-.fa-sign-in,
-.fa-user-plus,
-.fa-cog,
-.fa-info-circle,
-.fa-home,
-.fa-react,
-.fa-python,
-.fa-node-js {
-  margin: 0.4rem;
-}
+
 
 footer {
   background-color: #3f3f3f;
@@ -55,7 +47,6 @@ footer a {
 hr.light-100 {
   border-top: 1px solid #d5d5d5;
   width: 100%;
-
   margin-bottom: 1rem;
   font-size: 0.8rem;
 }
@@ -74,3 +65,11 @@ hr.light-100 {
   [class*="faviconFooter"] {
     width: 10%;
   }
+ }
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="myLogo"] {
+    width: 80%;
+  }
+ }
