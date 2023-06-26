@@ -1,78 +1,127 @@
-.navbarHeader {
-  background-color: #48494b;
-  padding: 0.3rem;  
-  height: 120px;
-  border-radius: 15px;  
+body {
+  background-color: #c0c2c9;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
 
 .myLogo {
-  width: 15rem;
-  height: auto;
-  padding: 2rem 1rem 2rem 1rem;  
-  border-left: 0.1rem;
+  width: 10rem;
+  margin-right: 6rem;
 }
 
-body {
-  background-color: #708090;
-  padding: 0.4rem;
+.gradientBG {
+  background: #343a40;
+  height: 7rem;
+  padding: 1rem;
+  border-radius: 0 0 15px 15px;  
 }
 
-.nav-link {
-  font-size: 1.1rem;    
+.OpenBars {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+.noHover:hover {
+  text-decoration: none;
 }
 
 
 
 footer {
-  background-color: #3f3f3f;
-  color: #d5d5d5;
-  font-size: 0.8rem;
-  padding: 2rem;
-  border-radius: 15px;
+  border-radius: 15px 15px 0 0;
+  padding-top: 0.5rem;
+}
+.footerHR {
+  border-top: 2px solid #fff;
 }
 
-hr.light {
-  border-top: 1px solid #d5d5d5;
-  width: 75%;
-  margin-top: 0.8rem;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
+.emailFooter {
+  color: #fff;
 }
 
-footer a {
-  color: #d5d5d5;
-  font-size: 0.8rem;
+.emailFooter:hover {
+  color: #000;
+  text-decoration: none;
 }
 
-hr.light-100 {
-  border-top: 1px solid #d5d5d5;
-  width: 100%;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
+.socialIconsWA {
+  font-size: 30px;
+  color: #25d366;
 }
 
-.bgnavbar {
-  background-color: #48494b;
-  z-index: 1;
+.socialIconsEM {
+  font-size: 30px;
+  color: yellow;
+}
+
+.socialIconsLI {
+  font-size: 30px;
+  color: #0077b5;
+}
+
+.socialIconsGH {
+  font-size: 30px;
+  color: black;
+}
+
+.socialIconsGM {
+  font-size: 30px;
+  color: red;
+}
+
+.socialIconsGMap {
+  font-size: 30px;
+  color: grey;
 }
 
 .faviconFooter{  
- width: 3%;
- }
-
- @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="faviconFooter"] {
-    width: 10%;
+  width: 3%;
   }
-  [class*="faviconFooter"] {
-    width: 10%;
-  }
- }
 
- @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="myLogo"] {
-    width: 70%;
-    padding: 1rem 1rem 2rem 1rem;  
- }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="faviconFooter"] {
+      width: 10%;
+    }    
+   }
+
+
+
+
+
+
+
+

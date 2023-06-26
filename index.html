@@ -1,121 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head>    
+</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Keith of all Trades</title>
+    <title>Keith of All Trades</title>
     <!-- Bootstrap CDN -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
+    />   
     <!-- My Style Sheet -->
     <link href="style.css" rel="stylesheet" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   </head>
   <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-dark navbarHeader">
-      <div class="container d-flex flex-row">
-        <a href="index.html"
-          ><img src="images/keithofalltrades.svg" class="img-fluid myLogo"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse bgnavbar" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">           
-            <li class="nav-item">
-              <a href="/" class="nav-link"><i class="fa fa-info-circle" aria-hidden="true"></i>&nbsp;About Me</a>
-            </li>
-            <li class="nav-item">
-              <a href="/" class="nav-link"><i class="fa fa-cogs" aria-hidden="true"></i>&nbsp;My Projects</a>
-            </li>
-          </ul>
-          
-        </div>
-      </div>
-    </nav>
-    <!-- End of Navigation -->
 
-    <!--- Welcome Section -->
-
-    <div class="container-fluid padding mt-5">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1 class="display-4">Keith of All Trades</h1>
-        </div>
-        <hr />
-        <div class="col-12">
-          <p class="lead">
-            
-          </p>
-        </div>
-      </div>
+     <!-- Side NavBar -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+      <br>      
+      <a href="" onclick="closeNav()"><i class="fa-solid fa-globe" aria-hidden="true"></i>&nbsp; Web Development</a>
+      <br> 
+      <a href="" onclick="closeNav()"><i class="fa-solid fa-video" aria-hidden="true"></i>&nbsp; Real Estate Videography</a>
+      <br>
+      <a href="" onclick="closeNav()"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>&nbsp; Handyman Service</a>
+      <br>
+      <a href="" onclick="closeNav()"><i class="fa-solid fa-car" aria-hidden="true"></i>&nbsp; Shuttle Service</a>
+      <br>         
+      <a href="#contactME" onclick="closeNav()"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; Contact Me</a>
     </div>
 
-    <!--- Footer -->
-    <footer>
+   
+   <!-- Hamburger Menu and Header Text-->
+    <div class="container-fluid gradientBG sticky-top" style="z-index:2 !important">
+      <span class="OpenBars" onclick="openNav()">&nbsp; &#9776; </span>      
+            <div class="float-right "><a href="/" onclick="closeNav()"><a href="/" class="noHover"><img class="myLogo" src="/images/keithofalltrades.png" alt="KeithOfAllTrades_Logo"></a></div>
+    </div> 
+    
+    <!-- Introduction  -->
+    <div class="container-fluid text-center">
+      
+      <p class="lead pt-3">Welcome to my Portfolio App. This Web Application is to showcase all the skills I have acquired and all the things I have an interest in. Keep scrolling down or use the side bar menu to jump to a specific area of interest.</p>
+    </div>
+
+      <!-- Contact Me -->
+      <!--- Footer -->
+    <footer class="text-white bg-dark" id="contactME">      
       <div class="container-fluid">
         <div class="row text-center">
           <div class="col-md-4">
-            <hr class="light" />
+            <hr class="footerHR" />
             <h5>Contact Me</h5>
-            <hr class="light" />
-            <p>keith.of.all.trades.za@gmail.com</p>
-            <p>North Riding</p>
-            <p>Johannesburg 2001</p>
+            <hr class="footerHR" />
+            <!-- GMail Contact-->
+            <p><a class="emailFooter" href="
+              https://mail.google.com/mail/?view=cm&fs=1&to=keithr.sinclair@gmail.com" target="_blank"><i class="fa fa-google socialIconsGM" aria-hidden="true"></i>&nbsp; Mail Me </a></p>
+              <!-- WhatsApp Contact-->
+            <p><a class="emailFooter" href="https://api.whatsapp.com/send?phone=27713630284" target="_blank"><i class="fa fa-whatsapp socialIconsWA" aria-hidden="true"></i>&nbsp; Send Me A WhatsApp</a></p>
+            <!-- Email Contact-->
+            <p><a class="emailFooter" href=""><i class="fa fa-envelope-o socialIconsEM" aria-hidden="true"></i>&nbsp; Email Contact Form</a></p>                    
           </div>
           <div class="col-md-4">
-            <hr class="light" />
-            <h5>My Hours</h5>
-            <hr class="light" />            
+            <hr class="footerHR"/>
+            <h5>My Hours</h5>            
+            <hr class="footerHR"/ />
             <p>Monday to Friday: 8am - 5pm</p>
             <p>Saturday: 8am - 1pm</p>
             <p>Sunday: Closed</p>
             <p>Public Holidays: By Arrangement</p>
           </div>
           <div class="col-md-4">
-            <hr class="light" />
+            <hr class="footerHR" />
             <h5>Services</h5>
-            <hr class="light" />
-            <p>Web Development</p>
-            <p>Real Estate Videography</p>
-            <p>Handyman Service</p>
-            <p>Private Shuttle</p>
+            <hr class="footerHR" />
+            <p class="emailFooter"><i class="fa-solid fa-globe" aria-hidden="true"></i>&nbsp; Web Development</p>
+            <p class="emailFooter"><i class="fa-solid fa-video" aria-hidden="true"></i>&nbsp; Real Estate Videography</p>
+            <p class="emailFooter"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i>&nbsp; Handyman Service</p>
+            <p class="emailFooter"><i class="fa-solid fa-car" aria-hidden="true"></i>&nbsp; Shuttle Service</p>
           </div>
           <div class="col-12">
-            <hr class="light-100" />
-            <h5>             
-              keith-of-all-trades.co.za <br>
-              &copy;<!-- Copyright Year Footer -->
-              <script type="text/javascript">
-                var year = new Date();
-                document.write(year.getFullYear());
-              </script>
-            </h5>
-            <p>Website proudly made by <img src="images/logo.png" class="faviconFooter img-fluid"
-              /> </p>
+            <hr class="footerHR" />            
+              <h5>             
+                keith-of-all-trades.co.za <br>
+                &copy;<!-- Copyright Year Footer -->
+                <script type="text/javascript">
+                  var year = new Date();
+                  document.write(year.getFullYear());
+                </script>
+              </h5> 
+              <p>Website proudly made by <img src="images/logo.png" class="faviconFooter img-fluid"
+              /> </p>           
           </div>
         </div>
       </div>
     </footer>
+    </div>
 
-    <!--- End of Footer -->
-
+    <!-- My Scripts -->
+    <script src="/js/myscripts.js" ></script>
     <!-- jQuery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap CDN -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  <!-- FontAwesome CDN -->
+
+    <!-- FontAwesome CDN -->
     <script src="https://kit.fontawesome.com/a9f59815a3.js" crossorigin="anonymous"></script>
+
   </body>
 </html>
