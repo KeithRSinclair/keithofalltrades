@@ -37,13 +37,8 @@ body {
 }
 
 .myLogo {
-<<<<<<< HEAD
-  width: 10rem;
-  margin-right: 2rem;
-=======
   width: 12rem;
-  margin-right: 4rem;
->>>>>>> 5120ab59daf46d42e474d8e2cae9a997a858be20
+  margin-right: 2rem;  
 }
 
 .gradientBG {
