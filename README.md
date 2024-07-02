@@ -1,4 +1,4 @@
-Busy setting up a Freelance website to try and get some work. Website live at https://keith-of-all-trades.co.za . I am offering the following services:
+A Jack of all Trades Website. View it @ 
 
 1) Shuttle/Taxi service
 2) Real Estate Videography
